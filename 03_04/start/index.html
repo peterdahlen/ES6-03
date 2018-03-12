@@ -3,7 +3,12 @@
 <head>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
 	<script type="text/babel">
+		var cats = ["Tabby", "Siames", "Persian"];
+		var dogs = ["Golden", "Pug", "Tax"];
 
+		var animals = ["Val", ...cats, "Ko", ...dogs, "Häst", "Orm"];
+
+		console.log(animals);
 	</script>
 	<title>Spread Operators</title>
 </head>
